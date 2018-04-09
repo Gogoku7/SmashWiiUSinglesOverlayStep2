@@ -1,0 +1,231 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* players */
+
+.players
+{
+	width: 1920px;
+	height: 80px;
+}
+
+/* players END*/
+
+
+
+/* player */
+
+.player
+{
+	width: 960px;
+	height: 80px;
+}
+
+#player1
+{
+	float: left;
+}
+
+#player2
+{
+	float: right;
+}
+
+/* player END */
+
+
+
+/* playerBox */
+
+.playerBox
+{
+	width: 650px;
+	height: 50px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+
+#player1Box
+{
+	float: right;
+	animation: showPlayerBox 1s;
+}
+
+#player2Box
+{
+	float: left;
+	animation: showPlayerBox 1s;
+}
+
+/* playerBox END */
+
+
+
+/* playerScore */
+
+.playerScore
+{
+	color: white;
+	font-size: 25px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+#player1ScoreText
+{
+	float: left;
+	margin-left: 30px;
+}
+
+#player2ScoreText
+{
+	float: right;
+	margin-right: 30px;
+}
+
+
+/* playerScore END */
+
+
+
+/* playerCharacter */
+
+.playerCharacter
+{
+	width: 50px;
+	height: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#player1Character
+{
+	float: left;
+	margin-left: 100px;
+}
+
+#player2Character
+{
+	float: right;
+	margin-right: 100px;
+}
+
+/* playerCharacterEnd */
+
+
+
+/* playerName */
+
+.playerName
+{
+	color: white;
+	font-size: 25px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+#player1NameText
+{
+	float: left;
+	margin-left: 150px;
+}
+
+#player2NameText
+{
+	float: right;
+	margin-right: 150px;
+}
+
+/* playerName END*/
+
+
+
+/* roundBox */
+
+.roundBox
+{
+	width: auto;
+	height: auto;
+}
+
+#roundBox
+{
+	width: 150px;
+	text-align: center;
+	background-image: url('roundBoxBackground.png');
+}
+
+#roundBoxText
+{
+	color: white;
+	margin: 0px;
+	white-space: nowrap;
+}
+
+/* roundBox END */
+
+
+
+/* animations */
+
+@keyframes showPlayerBox
+{
+	0% {width:0%}
+	100% {width:67.70833333333333%}
+}
+
+/* animations END */
+
+
+
+/* content */
+
+#player1Box
+{
+	background-image: url('playerBackgrounds/player1Background.png');
+}
+
+#player2Box
+{
+	background-image: url('playerBackgrounds/player2Background.png');
+}
+
+#player1ScoreText:before
+{
+	content:"0";
+}
+
+#player2ScoreText:before
+{
+	content:"0";
+}
+
+#player1Character
+{
+	background-image: url('stockIcons/diddykong.png');
+}
+
+#player2Character
+{
+	background-image: url('stockIcons/marth.png');
+}
+
+#player1NameText:before
+{
+	content:"ZeRo";
+}
+
+#player2NameText:before
+{
+	content:"MKLeo";
+}
+
+#roundBoxText:before
+{
+	content:"Grand Finals";
+}
+
+/* content END */
