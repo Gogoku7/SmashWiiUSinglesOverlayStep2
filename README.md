@@ -14,7 +14,7 @@ Changes from Step 1:
 
 ![alt img](https://imgur.com/VLLhL43.png)
 - Select gameOverlay.html of this project.
-- Set the resolution and framerate. (1920 x 1080 at 60 frames per second reccommended)
+- Set the resolution and framerate. (1920 x 1080 at 60 frames per second recommended)
 - Check Refresh browser when scene becomes active checkbox.
 
 ![alt img](https://imgur.com/zLKg09t.png)
