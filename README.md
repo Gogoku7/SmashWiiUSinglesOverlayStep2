@@ -21,7 +21,7 @@ Changes from Step 1:
 
 You are now ready to stream with the overlay.
 
-As the streamed set(s) progress, you can update the overlay by changing
+As the streamed set(s) progress, you can update the overlay by changing:
 
 - #player1Box (the background image of the player box of player 1)
 - #player1ScoreText:before (the score of player 1)
