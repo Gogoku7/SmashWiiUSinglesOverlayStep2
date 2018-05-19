@@ -10,6 +10,7 @@ Changes from Step 1:
 - Add a new Browser source to your scene.
 
 ![alt img](https://imgur.com/FCYcy8M.png)
+
 - Check the Local file checkbox and click Browse.
 
 ![alt img](https://imgur.com/VLLhL43.png)
