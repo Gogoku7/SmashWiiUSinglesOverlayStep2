@@ -5,7 +5,6 @@ Changes from Step 1:
 - Added Character icons
 - Added score
 
-
 **How to use in Open Broadcaster Software (OBS Studio):**
 - Add a new Browser source to your scene.
 
