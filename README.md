@@ -36,4 +36,4 @@ As the streamed set(s) progress, you can update the overlay by changing:
 
 at the bottom of styles.css
 
-At this step, the overlay doesn't dynamically update whenever the css is altered, you have to move back and forward between the scene with the overlay and another scene to show an updated overlay.
+At this step, the overlay dynamically updates whenever the CSS is altered!
