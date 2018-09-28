@@ -4,6 +4,9 @@ Step 2 of a project to create a dynamically editable overlay for Super Smash Bro
 Changes from Step 1:
 - Added Character icons
 - Added score
+- Added Ports
+- Added jQuery.js to dynamically update the overlay when the CSS is altered.
+- Added fitty.js to dynamically resize the text in the overlay when the CSS is altered.
 
 **How to use in Open Broadcaster Software (OBS Studio):**
 - Add a new Browser source to your scene.
