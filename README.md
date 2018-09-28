@@ -24,15 +24,18 @@ You are now ready to stream with the overlay.
 
 As the streamed set(s) progress, you can update the overlay by changing:
 
-- #player1Box (the background image of the player box of player 1)
-- #player1ScoreText:before (the score of player 1)
-- #player1Character (the logo of the character of player 1)
-- #player1NameText:before (the name of player 1)
-- #player2Box (the background image of the player box of player 2)
-- #player2ScoreText:before (the score of player 2)
-- #player2Character (the logo of the character of player 2)
-- #player2NameText:before (the name of player 2)
-- #roundBoxText:before (the current round)
+- #player1Character
+- #player1NameText:before
+- #player1Port
+- #player1ScoreText:before
+- #player1TwitterText:before
+- #player2Character
+- #player2NameText:before
+- #player2Port
+- #player2ScoreText:before
+- #player2TwitterText:before
+- #roundBoxText:before
+- #tournamentBoxText:before
 
 at the bottom of styles.css
 
